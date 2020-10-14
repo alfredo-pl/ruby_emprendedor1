@@ -1,13 +1,15 @@
-puts"se ingreso el precio"
+
 pr = ARGV[0].to_i
-puts"se ingreso el numero de usuarios"
 nu = ARGV[1].to_i
-puts"se ingreso el numero de usuarios premium"
 nup = ARGV[2].to_i
-puts"se ingreso el numero de usuarios gratis(no pagan)"
 nug = ARGV[3].to_i
-puts"se ingreso los gastos"
 g = ARGV[4].to_i
+
+puts"El precio ingresado es: #{pr}"
+puts"El numero de usuarios es: #{nu}"
+puts"El numero de usuarios premium es: #{nup}"
+puts"El numero de usuarios gratis es: #{nug}"
+puts"El gastos es: #{g}"
 
 pr2 = (nup * pr)*2
 prg = nug * pr
